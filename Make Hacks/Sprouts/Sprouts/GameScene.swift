@@ -9,6 +9,10 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    let dots = Set<Dot>()
+    
+    
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         let myLabel = SKLabelNode(fontNamed:"Chalkduster")
