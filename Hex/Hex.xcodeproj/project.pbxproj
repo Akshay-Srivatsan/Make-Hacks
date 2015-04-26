@@ -15,6 +15,8 @@
 		B9F64B711AED599A009F27BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F64B701AED599A009F27BB /* Images.xcassets */; };
 		B9F64B741AED599A009F27BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F64B721AED599A009F27BB /* LaunchScreen.xib */; };
 		B9F64B801AED599B009F27BB /* HexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F64B7F1AED599B009F27BB /* HexTests.swift */; };
+		BB39E7191AED5EB00030D285 /* plane-partition.png in Resources */ = {isa = PBXBuildFile; fileRef = BB39E7181AED5EB00030D285 /* plane-partition.png */; };
+		BB39E71B1AED60450030D285 /* plane-partition.png in Resources */ = {isa = PBXBuildFile; fileRef = BB39E71A1AED60450030D285 /* plane-partition.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		B9F64B791AED599B009F27BB /* HexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F64B7E1AED599B009F27BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9F64B7F1AED599B009F27BB /* HexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexTests.swift; sourceTree = "<group>"; };
+		BB39E7181AED5EB00030D285 /* plane-partition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plane-partition.png"; path = "../../../Desktop/plane-partition.png"; sourceTree = "<group>"; };
+		BB39E71A1AED60450030D285 /* plane-partition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-partition.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		B9F64B621AED599A009F27BB /* Hex */ = {
 			isa = PBXGroup;
 			children = (
+				BB39E71A1AED60450030D285 /* plane-partition.png */,
 				B9F64B651AED599A009F27BB /* AppDelegate.swift */,
 				B9F64B671AED599A009F27BB /* GameScene.sks */,
 				B9F64B691AED599A009F27BB /* GameScene.swift */,
@@ -88,6 +93,7 @@
 				B9F64B6D1AED599A009F27BB /* Main.storyboard */,
 				B9F64B701AED599A009F27BB /* Images.xcassets */,
 				B9F64B721AED599A009F27BB /* LaunchScreen.xib */,
+				BB39E7181AED5EB00030D285 /* plane-partition.png */,
 				B9F64B631AED599A009F27BB /* Supporting Files */,
 			);
 			path = Hex;
@@ -198,6 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB39E7191AED5EB00030D285 /* plane-partition.png in Resources */,
+				BB39E71B1AED60450030D285 /* plane-partition.png in Resources */,
 				B9F64B741AED599A009F27BB /* LaunchScreen.xib in Resources */,
 				B9F64B711AED599A009F27BB /* Images.xcassets in Resources */,
 				B9F64B681AED599A009F27BB /* GameScene.sks in Resources */,
@@ -419,6 +427,7 @@
 				B9F64B851AED599B009F27BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9F64B861AED599B009F27BB /* Build configuration list for PBXNativeTarget "HexTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +436,7 @@
 				B9F64B881AED599B009F27BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
