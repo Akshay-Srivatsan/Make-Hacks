@@ -9,10 +9,17 @@
 import Foundation
 import SpriteKit
 
-class Dot : SKNode {
+class Dot : SKShapeNode {
 
-let radisBall = .25
+    let radiusBall =
 
-override innit (
+    init () {
+        self.path = CGPathCreateMutable();
+        CGPathAddArc(self.path, nil, 0, 0, radiusBall, 0, M_PI*2, YES);
+        self.lineWidth = 1.0;
+        self.fillColor = SKColor.blueColor();
+        self.strokeColor = SKColor.whiteColor();
+        self.glowWidth = 0.5;
+    }
     
 }
