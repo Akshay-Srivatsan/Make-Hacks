@@ -17,6 +17,7 @@
 		B9F64B801AED599B009F27BB /* HexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F64B7F1AED599B009F27BB /* HexTests.swift */; };
 		BB39E7191AED5EB00030D285 /* plane-partition.png in Resources */ = {isa = PBXBuildFile; fileRef = BB39E7181AED5EB00030D285 /* plane-partition.png */; };
 		BB39E71B1AED60450030D285 /* plane-partition.png in Resources */ = {isa = PBXBuildFile; fileRef = BB39E71A1AED60450030D285 /* plane-partition.png */; };
+		BB39E71D1AED756C0030D285 /* Mobile no code.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB39E71C1AED756C0030D285 /* Mobile no code.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B9F64B7F1AED599B009F27BB /* HexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexTests.swift; sourceTree = "<group>"; };
 		BB39E7181AED5EB00030D285 /* plane-partition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plane-partition.png"; path = "../../../Desktop/plane-partition.png"; sourceTree = "<group>"; };
 		BB39E71A1AED60450030D285 /* plane-partition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-partition.png"; sourceTree = "<group>"; };
+		BB39E71C1AED756C0030D285 /* Mobile no code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Mobile no code.swift"; path = "../../Desktop/Mobile no code.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		B9F64B571AED599A009F27BB = {
 			isa = PBXGroup;
 			children = (
+				BB39E71C1AED756C0030D285 /* Mobile no code.swift */,
 				B9F64B621AED599A009F27BB /* Hex */,
 				B9F64B7C1AED599B009F27BB /* HexTests */,
 				B9F64B611AED599A009F27BB /* Products */,
@@ -230,6 +233,7 @@
 				B9F64B6A1AED599A009F27BB /* GameScene.swift in Sources */,
 				B9F64B6C1AED599A009F27BB /* GameViewController.swift in Sources */,
 				B9F64B661AED599A009F27BB /* AppDelegate.swift in Sources */,
+				BB39E71D1AED756C0030D285 /* Mobile no code.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
