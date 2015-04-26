@@ -11,15 +11,21 @@ import SpriteKit
 
 class Dot : SKShapeNode {
 
-    let radiusBall =
+    let radiusBall = 1;
 
-    init () {
-        self.path = CGPathCreateMutable();
-        CGPathAddArc(self.path, nil, 0, 0, radiusBall, 0, M_PI*2, YES);
+    override init () {
+        super.init();
+        let path = CGPathCreateMutable();
+        self.path = path;
+        CGPathAddArc(path, nil, CGFloat(0), CGFloat(0), CGFloat(10), CGFloat(0), CGFloat(M_PI*2), true);
         self.lineWidth = 1.0;
         self.fillColor = SKColor.blueColor();
         self.strokeColor = SKColor.whiteColor();
         self.glowWidth = 0.5;
+    }
+    
+    required override init!(coder : NSCoder) {
+        super.init(coder: coder);
     }
     
 }
