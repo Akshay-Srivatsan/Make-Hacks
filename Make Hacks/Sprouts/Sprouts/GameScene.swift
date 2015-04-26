@@ -9,18 +9,9 @@
 import SpriteKit
 
 class GameScene: SKScene {
-      
-        //self.addChild(myLabel)
-        let dotOne = Dot ();
-        dot.position = CGPoint (x: 100, y:100);
-        addChild(dot);
-        
-        let dotTwo = Dot();
     
+        //self.addChild(myLabel)
     var dots = Set<Dot>()
-
-dots.add(dotone)
-
     
    
     
@@ -31,6 +22,17 @@ dots.add(dotone)
         myLabel.text = "Hello, World!";
         myLabel.fontSize = 65;
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        
+        
+        let dotOne = Dot ();
+        dotOne.position = CGPoint (x: 100, y:100);
+        addChild(dotOne);
+        
+//        let dotTwo = Dot();
+        
+//        dots.add(dotOne)
+
+
   
         
     }
