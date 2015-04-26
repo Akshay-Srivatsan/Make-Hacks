@@ -9,8 +9,20 @@
 import SpriteKit
 
 class GameScene: SKScene {
+      
+        //self.addChild(myLabel)
+        let dotOne = Dot ();
+        dot.position = CGPoint (x: 100, y:100);
+        addChild(dot);
+        
+        let dotTwo = Dot();
     
-    let dots = Set<Dot>()
+    var dots = Set<Dot>()
+
+dots.add(dotone)
+
+    
+   
     
     
     override func didMoveToView(view: SKView) {
@@ -19,8 +31,8 @@ class GameScene: SKScene {
         myLabel.text = "Hello, World!";
         myLabel.fontSize = 65;
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+  
         
-        self.addChild(myLabel)
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
