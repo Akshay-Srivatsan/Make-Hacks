@@ -24,6 +24,20 @@
 			remoteGlobalIDString = BA1C52BC1AED47CF0090766A;
 			remoteInfo = "Make Hacks";
 		};
+		BE2732B61AED4C7000AC4141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2732B11AED4C6B00AC4141 /* Management_Simulator_2015.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE27328A1AED4C6A00AC4141;
+			remoteInfo = Management_Simulator_2015;
+		};
+		BE2732B81AED4C7000AC4141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2732B11AED4C6B00AC4141 /* Management_Simulator_2015.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE2732A11AED4C6B00AC4141;
+			remoteInfo = Management_Simulator_2015Tests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +52,7 @@
 		BA1C52D41AED47CF0090766A /* Make HacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Make HacksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1C52D91AED47CF0090766A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA1C52DA1AED47CF0090766A /* Make_HacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Make_HacksTests.swift; sourceTree = "<group>"; };
+		BE2732B11AED4C6B00AC4141 /* Management_Simulator_2015.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Management_Simulator_2015.xcodeproj; path = ../Management_Simulator_2015/Management_Simulator_2015.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 		BA1C52B41AED47CF0090766A = {
 			isa = PBXGroup;
 			children = (
+				BE2732B11AED4C6B00AC4141 /* Management_Simulator_2015.xcodeproj */,
 				BA1C52BF1AED47CF0090766A /* Make Hacks */,
 				BA1C52D71AED47CF0090766A /* Make HacksTests */,
 				BA1C52BE1AED47CF0090766A /* Products */,
@@ -113,6 +129,15 @@
 				BA1C52D91AED47CF0090766A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE2732B21AED4C6B00AC4141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2732B71AED4C7000AC4141 /* Management_Simulator_2015.app */,
+				BE2732B91AED4C7000AC4141 /* Management_Simulator_2015Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +207,12 @@
 			mainGroup = BA1C52B41AED47CF0090766A;
 			productRefGroup = BA1C52BE1AED47CF0090766A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BE2732B21AED4C6B00AC4141 /* Products */;
+					ProjectRef = BE2732B11AED4C6B00AC4141 /* Management_Simulator_2015.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BA1C52BC1AED47CF0090766A /* Make Hacks */,
@@ -189,6 +220,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BE2732B71AED4C7000AC4141 /* Management_Simulator_2015.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Management_Simulator_2015.app;
+			remoteRef = BE2732B61AED4C7000AC4141 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE2732B91AED4C7000AC4141 /* Management_Simulator_2015Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Management_Simulator_2015Tests.xctest;
+			remoteRef = BE2732B81AED4C7000AC4141 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BA1C52BB1AED47CF0090766A /* Resources */ = {
@@ -415,6 +463,7 @@
 				BA1C52E01AED47CF0090766A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA1C52E11AED47CF0090766A /* Build configuration list for PBXNativeTarget "Make HacksTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +472,7 @@
 				BA1C52E31AED47CF0090766A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
