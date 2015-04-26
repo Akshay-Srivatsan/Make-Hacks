@@ -24,6 +24,20 @@
 			remoteGlobalIDString = BA1C52BC1AED47CF0090766A;
 			remoteInfo = "Make Hacks";
 		};
+		BA1C538C1AED50BE0090766A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1C53851AED50BD0090766A /* Sprouts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA1C535C1AED50BD0090766A;
+			remoteInfo = Sprouts;
+		};
+		BA1C538E1AED50BE0090766A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1C53851AED50BD0090766A /* Sprouts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA1C53751AED50BD0090766A;
+			remoteInfo = SproutsTests;
+		};
 		BE2732B61AED4C7000AC4141 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BE2732B11AED4C6B00AC4141 /* Management_Simulator_2015.xcodeproj */;
@@ -52,6 +66,7 @@
 		BA1C52D41AED47CF0090766A /* Make HacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Make HacksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1C52D91AED47CF0090766A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA1C52DA1AED47CF0090766A /* Make_HacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Make_HacksTests.swift; sourceTree = "<group>"; };
+		BA1C53851AED50BD0090766A /* Sprouts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sprouts.xcodeproj; path = Sprouts/Sprouts.xcodeproj; sourceTree = "<group>"; };
 		BE2732B11AED4C6B00AC4141 /* Management_Simulator_2015.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Management_Simulator_2015.xcodeproj; path = ../Management_Simulator_2015/Management_Simulator_2015.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +91,7 @@
 		BA1C52B41AED47CF0090766A = {
 			isa = PBXGroup;
 			children = (
+				BA1C53851AED50BD0090766A /* Sprouts.xcodeproj */,
 				BE2732B11AED4C6B00AC4141 /* Management_Simulator_2015.xcodeproj */,
 				BA1C52BF1AED47CF0090766A /* Make Hacks */,
 				BA1C52D71AED47CF0090766A /* Make HacksTests */,
@@ -129,6 +145,15 @@
 				BA1C52D91AED47CF0090766A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA1C53861AED50BD0090766A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA1C538D1AED50BE0090766A /* Sprouts.app */,
+				BA1C538F1AED50BE0090766A /* SproutsTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BE2732B21AED4C6B00AC4141 /* Products */ = {
@@ -212,6 +237,10 @@
 					ProductGroup = BE2732B21AED4C6B00AC4141 /* Products */;
 					ProjectRef = BE2732B11AED4C6B00AC4141 /* Management_Simulator_2015.xcodeproj */;
 				},
+				{
+					ProductGroup = BA1C53861AED50BD0090766A /* Products */;
+					ProjectRef = BA1C53851AED50BD0090766A /* Sprouts.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -222,6 +251,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		BA1C538D1AED50BE0090766A /* Sprouts.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Sprouts.app;
+			remoteRef = BA1C538C1AED50BE0090766A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA1C538F1AED50BE0090766A /* SproutsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SproutsTests.xctest;
+			remoteRef = BA1C538E1AED50BE0090766A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		BE2732B71AED4C7000AC4141 /* Management_Simulator_2015.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
