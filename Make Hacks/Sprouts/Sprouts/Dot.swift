@@ -10,5 +10,9 @@ import Foundation
 import SpriteKit
 
 class Dot : SKNode {
+
+let radisBall = .25
+
+override innit (
     
 }
